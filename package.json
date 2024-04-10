@@ -1,0 +1,28 @@
+{
+  "name": "systemusage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrishnan-codes/systemusage-js.git"
+  },
+  "keywords": [
+    "system",
+    "usage",
+    "javascript"
+  ],
+  "author": "Manu Krishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkrishnan-codes/systemusage-js/issues"
+  },
+  "homepage": "https://github.com/mkrishnan-codes/systemusage-js#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Usage Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="txt-wrapper">
+            <div>CPU Usage Monitor</div>
+            <button id="checkButton">Check now</button>
+
+        </div>
+<div>
+    <div class="txt-wrapper">
+        <label>CPU Usage</label>
+        <div id="cpu-usage"></div>
+        <div class="chart-base">
+        <div id="cpu-usage-chart" class="chart"></div>
+        </div>
+    </div>
+
+</div>
+        <!-- <div class="txt-wrapper">
+            <label>Memory Usage</label>
+            <div id="mem-usage"></div>
+        </div> -->
+        <div class="txt-wrapper">
+            <label>Last fetched</label>
+            <div id="time"></div>
+        </div>
+        <div class="txt-wrapper">
+            <label>Fetched</label>
+            <div id="counter"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

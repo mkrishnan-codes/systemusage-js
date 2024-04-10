@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.txt-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+
+}
+
+
+.right-gap {
+    margin-right: 20px;
+}
+
+.chart-base {
+    background: #ecf0f1;
+    width: 200px;
+}
+
+.chart {
+    background: #2ecc71;
+    height: 20px;
+}
+
+.chart-y {
+    background: #f1c40f !important;
+
+}
+
+.chart-r {
+    background: #e74c3c !important;
+
+}
